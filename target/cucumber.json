@@ -1,0 +1,123 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21040582300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:16"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Buy item Full Price as Entrega pela Loja Arezzo",
+        "description": "",
+        "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 809212700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#  Scenario: Buy item Full Price as Entrega pela Loja Arezzo"
+              }
+            ],
+            "line": 8,
+            "name": "I select the number \"35\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 21
+                }
+              ],
+              "location": "ShippingMethodsSteps.iSelectTheNumber(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1764237500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the buy button",
+            "match": {
+              "location": "ShippingMethodsSteps.iClickTheBuyButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1629762600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I insert my CEP address",
+            "match": {
+              "location": "ShippingMethodsSteps.iInsertMyCEPAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367538600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Calculate Shipping",
+            "match": {
+              "location": "ShippingMethodsSteps.iClickOnCalculateShipping()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1312027200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I see the Entrega pela Loja method",
+            "match": {
+              "location": "ShippingMethodsSteps.iSeeTheEntregaPelaLojaMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141516700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see the Retire na Loja method",
+            "match": {
+              "location": "ShippingMethodsSteps.iSeeTheRetireNaLojaMethod()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@SchutzFullMethods"
+          }
+        ]
+      }
+    ],
+    "name": "Schutz Check Cart",
+    "description": "This feature will check the options in the client cart and checkout pages",
+    "id": "schutz-check-cart",
+    "keyword": "Feature",
+    "uri": "SchutzShippingVerify.feature"
+  }
+]
