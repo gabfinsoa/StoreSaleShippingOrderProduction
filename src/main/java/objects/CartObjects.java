@@ -1,0 +1,29 @@
+package objects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utils.Utils;
+
+public class CartObjects extends Utils {
+    public CartObjects(WebDriver driver) {
+        super(driver);
+        PageFactory.initElements(driver,this);
+    }
+
+    @FindBy(id = "zipCodeInput")
+    public WebElement txtCepFieldCartSchutz;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div[2]/div[2]/button")
+    public WebElement btnCepConsultCartSchutz;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[2]/div/div[1]/div[2]/div[3]/div/p[1]/strong[1]")
+    public WebElement lblRetirarNaLojaMethodSchutz;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[2]/div/div[1]/div[2]/div[3]/div/p[2]/strong")
+    public WebElement lblEntregaPelaLojaMethodSchutz;
+
+
+
+}
