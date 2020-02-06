@@ -3,10 +3,20 @@
     "line": 2,
     "elements": [
       {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#  @ArezzoFullMethods"
+          },
+          {
+            "line": 6,
+            "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Arezzo"
+          }
+        ],
         "before": [
           {
             "result": {
-              "duration": 21040582300,
+              "duration": 39274507200,
               "status": "passed"
             },
             "match": {
@@ -14,25 +24,19 @@
             }
           }
         ],
-        "line": 17,
+        "line": 8,
         "name": "Buy item Full Price as Entrega pela Loja Arezzo",
         "description": "",
-        "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo;;2",
+        "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 809212700,
+              "duration": 514174500,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 7,
-                "value": "#  Scenario: Buy item Full Price as Entrega pela Loja Arezzo"
-              }
-            ],
-            "line": 8,
+            "line": 9,
             "name": "I select the number \"35\"",
             "match": {
               "arguments": [
@@ -47,10 +51,10 @@
           },
           {
             "result": {
-              "duration": 1764237500,
+              "duration": 28271624200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I click the buy button",
             "match": {
               "location": "ShippingMethodsSteps.iClickTheBuyButton()"
@@ -59,10 +63,10 @@
           },
           {
             "result": {
-              "duration": 1629762600,
+              "duration": 470256700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I insert my CEP address",
             "match": {
               "location": "ShippingMethodsSteps.iInsertMyCEPAddress()"
@@ -71,10 +75,10 @@
           },
           {
             "result": {
-              "duration": 367538600,
+              "duration": 271391300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click on Calculate Shipping",
             "match": {
               "location": "ShippingMethodsSteps.iClickOnCalculateShipping()"
@@ -83,10 +87,10 @@
           },
           {
             "result": {
-              "duration": 1312027200,
+              "duration": 1194677400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I see the Entrega pela Loja method",
             "match": {
               "location": "ShippingMethodsSteps.iSeeTheEntregaPelaLojaMethod()"
@@ -95,10 +99,10 @@
           },
           {
             "result": {
-              "duration": 141516700,
+              "duration": 113274900,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I see the Retire na Loja method",
             "match": {
               "location": "ShippingMethodsSteps.iSeeTheRetireNaLojaMethod()"
@@ -108,8 +112,8 @@
         ],
         "tags": [
           {
-            "line": 5,
-            "name": "@SchutzFullMethods"
+            "line": 7,
+            "name": "@ArezzoFullMethods"
           }
         ]
       }
@@ -118,6 +122,6 @@
     "description": "This feature will check the options in the client cart and checkout pages",
     "id": "schutz-check-cart",
     "keyword": "Feature",
-    "uri": "SchutzShippingVerify.feature"
+    "uri": "ArezzoShippingVerify.feature"
   }
 ]

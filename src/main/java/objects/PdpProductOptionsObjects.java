@@ -17,4 +17,10 @@ public class PdpProductOptionsObjects extends Utils {
 
     @FindBy(xpath = "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[3]/label")
     public static WebElement btnNumber35PDPSelectSchutz;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[14]/form/div[1]/button/span")
+    public static WebElement btnBuyPDPArezzo;
+
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[3]/a/span")
+    public static WebElement btnNumber35PDPSelectArezzo;
 }

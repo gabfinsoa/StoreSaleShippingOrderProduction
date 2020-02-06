@@ -24,6 +24,19 @@ public class CartObjects extends Utils {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[2]/div/div[1]/div[2]/div[3]/div/p[2]/strong")
     public WebElement lblEntregaPelaLojaMethodSchutz;
 
+    @FindBy(id = "postalCode")
+    public WebElement txtCepFieldCartArezzo;
+
+    @FindBy(xpath = "/html/body/main/section[1]/section[2]/div/table/tbody/tr[2]/td[2]/form/div/button")
+    public WebElement btnCepConsultCartArezzo;
+
+    @FindBy(xpath = "/html/body/main/section[1]/section[2]/div/table/tbody/tr[2]/td[2]/div/p[1]")
+    public WebElement lblRetirarNaLojaMethodArezzo;
+
+    @FindBy(xpath = "/html/body/main/section[1]/section[2]/div/table/tbody/tr[2]/td[2]/div/p[2]")
+    public WebElement lblEntregaPelaLojaMethodArezzo;
+
+
 
 
 }

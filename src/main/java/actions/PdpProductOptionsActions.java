@@ -18,4 +18,15 @@ public class PdpProductOptionsActions extends PdpProductOptionsObjects {
         waitElementPolling(btnBuyPDPSchutz); //Create a FluentWait
         clickElement(btnBuyPDPSchutz);
     }
+
+    public void doSelectBtnNumber35PDPSelectArezzo(){
+//        waitElement(btnNumber35PDPSelectSchutz);
+        waitElementPolling(btnNumber35PDPSelectArezzo);
+        clickElement(btnNumber35PDPSelectArezzo);
+    }
+
+    public void doClickBtnBuyPdpArezzo(){
+        waitElementPolling(btnBuyPDPArezzo); //Create a FluentWait
+        clickElement(btnBuyPDPArezzo);
+    }
 }

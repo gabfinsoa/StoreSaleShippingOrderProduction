@@ -3,16 +3,43 @@ package base;
 import actions.PdpProductOptionsActions;
 import capabilities.Capabilities;
 
+import static utils.Utils.getBrand;
+
 public class InitPdp {
 
     public static Capabilities caps = new Capabilities();
     static PdpProductOptionsActions pdpActions = new PdpProductOptionsActions(caps.driver);
 
     public static void pdpSelectShoeNumber(){
-        pdpActions.doSelectBtnNumber35PDPSelectSchutz();
+        String brand = getBrand();
+        switch (brand){
+            case "Arezzo":
+                pdpActions.doSelectBtnNumber35PDPSelectArezzo();
+                break;
+            case "Schutz":
+                pdpActions.doSelectBtnNumber35PDPSelectSchutz();
+                break;
+            case "Anacapri":
+//                pdpActions.doSelectBtnNumber35PDPSelectSchutz();
+                System.out.println("Fazer Anacapri!!!");
+                break;
+        }
+//        pdpActions.doSelectBtnNumber35PDPSelectSchutz();
     }
 
     public static void pdpClickBuyButton(){
-        pdpActions.doClickBtnBuyPdpSchutz();
+        String brand = getBrand();
+        switch (brand){
+            case "Arezzo":
+                pdpActions.doClickBtnBuyPdpArezzo();
+                break;
+            case "Schutz":
+                pdpActions.doClickBtnBuyPdpSchutz();
+                break;
+            case "Anacapri":
+                System.out.println("Fazer Anacapri!!");
+                break;
+        }
+//        pdpActions.doClickBtnBuyPdpSchutz();
     }
 }
