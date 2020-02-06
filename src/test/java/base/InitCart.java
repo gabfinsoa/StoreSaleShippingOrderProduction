@@ -23,7 +23,8 @@ public class InitCart {
                 cartActions.doSendKeysCepFieldSchutz();
                 break;
             case "Anacapri":
-                System.out.println("Fazer Anacapri!");
+                cartActions.doClearCepFieldAnacapri();
+                cartActions.doSendKeysCepFieldAnacapri();
                 break;
         }
     }
@@ -38,7 +39,7 @@ public class InitCart {
                 cartActions.doCepConsultCartSchutz();
                 break;
             case "Anacapri":
-                System.out.println("Fazer Anacapri!");
+                cartActions.doCepConsultCartAnacapri();
                 break;
         }
 
@@ -54,7 +55,7 @@ public class InitCart {
                 cartActions.doValidateRetirarNaLojaShippingMethodSchutz();
                 break;
             case "Anacapri":
-                System.out.println("Fazer Anacapri");
+                cartActions.doValidateRetirarNaLojaShippingMethodAnacapri();
         }
 
     }
@@ -69,7 +70,7 @@ public class InitCart {
                 cartActions.doValidateEntregaPelaLojaShippingMethodSchutz();
                 break;
             case "Anacapri":
-                System.out.println("Fazer Anacapri");
+                cartActions.doValidateEntregaPelaLojaShippingMethodAnacapri();
         }
 
     }

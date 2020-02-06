@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c0f233-72c8-44ff-b666-75f90266a1cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/CartActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/CartActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/PdpProductOptionsActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/PdpProductOptionsActions.java" afterDir="false" />
@@ -9,10 +10,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/objects/PdpProductOptionsObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/PdpProductOptionsObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/InitCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/InitCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/InitPdp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/InitPdp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/SchutzShippingVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SchutzShippingVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ShippingMethodsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ShippingMethodsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/baseUrl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/baseUrl.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,10 +26,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/objects/CartObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actions/CartActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="131" column="69" lean-forward="true" selection-start-line="131" selection-start-column="69" selection-end-line="131" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/base/InitCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,42 +81,6 @@
                 <element signature="e#903#904#0" expanded="true" />
                 <element signature="e#983#984#0" expanded="true" />
                 <element signature="e#1029#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/objects/CartObjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/actions/CartActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/InitCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,15 +112,16 @@
         <option value="$PROJECT_DIR$/src/main/java/actions/CartObjectsActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/SchutzShippingVerify.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ShippingMethodsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/baseUrl.json" />
         <option value="$PROJECT_DIR$/src/main/java/objects/PdpProductOptionsObjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/actions/PdpProductOptionsActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/InitPdp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/CartObjects.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/InitCart.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/ShippingMethodsSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/CartObjects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature" />
         <option value="$PROJECT_DIR$/src/main/java/actions/CartActions.java" />
       </list>
     </option>
@@ -302,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Arezzo">
+  <component name="RunManager" selected="JUnit.Anacapri">
     <configuration name="AcessaSchutz" type="JUnit" factoryName="JUnit" folderName="Schutz" temporary="true" nameIsGenerated="true">
       <module name="StoreSaleShippingOrderProduction" />
       <extension name="coverage">
@@ -315,6 +314,18 @@
       <option name="MAIN_CLASS_NAME" value="TesteInicial.AcessaSchutz" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Anacapri" type="JUnit" factoryName="JUnit" folderName="Schutz">
+      <module name="StoreSaleShippingOrderProduction" />
+      <option name="PACKAGE_NAME" value="testsRun" />
+      <option name="MAIN_CLASS_NAME" value="testsRun.RunTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Dbrand=Anacapri -Denv=prd -Dmode=Desktop -Dcucumber.options=&quot;--tags @AnacapriFullMethods&quot;" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -362,6 +373,7 @@
     <list>
       <item itemvalue="JUnit.Schutz " />
       <item itemvalue="JUnit.Arezzo" />
+      <item itemvalue="JUnit.Anacapri" />
       <item itemvalue="JUnit.AcessaSchutz" />
       <item itemvalue="JUnit.RunTest" />
     </list>
@@ -401,35 +413,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Arezzo - 2020.02.06 at 12h 00m 02s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 18h 51m 43s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 12h 16m 39s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 18h 53m 42s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 09m 04s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 18h 59m 26s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 19m 30s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 01m 26s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 34m 58s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 09m 37s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 36m 29s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 13m 07s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 36m 54s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 17m 02s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 37m 33s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 20m 40s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 45m 03s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 24m 39s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Arezzo - 2020.02.06 at 16h 47m 59s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
+    <history-entry file="Anacapri - 2020.02.06 at 19h 27m 13s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -445,13 +457,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7236504" visible="true" weight="0.32032302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7236504" visible="true" weight="0.4306864" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993573" weight="0.243607" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2763496" side_tool="true" visible="true" weight="0.32032302" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2763496" side_tool="true" visible="true" weight="0.4306864" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49871466" weight="0.32974428" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -559,30 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/baseUrl.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/PdpProductOptionsObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="77" column="47" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testsRun/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -590,52 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actions/PdpProductOptionsActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TesteInicial/AcessaSchutz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/InitPdp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/InitCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/objects/CartObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -654,8 +600,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -673,10 +619,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/baseUrl.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="17" column="130" selection-start-line="17" selection-start-column="130" selection-end-line="17" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/InitPdp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/PdpProductOptionsActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/PdpProductOptionsObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/InitCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/CartObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actions/CartActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="131" column="69" lean-forward="true" selection-start-line="131" selection-start-column="69" selection-end-line="131" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -23,4 +23,12 @@ public class PdpProductOptionsObjects extends Utils {
 
     @FindBy(xpath = "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[3]/a/span")
     public static WebElement btnNumber35PDPSelectArezzo;
+
+    @FindBy(xpath = "/html/body/div[5]/div[2]/div[1]/div[2]/form/div[1]/div[1]/div/ul/li[3]/label")
+    public static WebElement btnNumber35PDPSelectAnacapri;
+
+    @FindBy(id = "btn-add-to-cart")
+    public static WebElement btnBuyPDPAnacapri;
+
+
 }

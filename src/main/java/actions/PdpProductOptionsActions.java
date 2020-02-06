@@ -29,4 +29,15 @@ public class PdpProductOptionsActions extends PdpProductOptionsObjects {
         waitElementPolling(btnBuyPDPArezzo); //Create a FluentWait
         clickElement(btnBuyPDPArezzo);
     }
+
+    public void doSelectBtnNumber35PDPSelectAnacapri(){
+//        waitElement(btnNumber35PDPSelectSchutz);
+        waitElementPolling(btnNumber35PDPSelectAnacapri);
+        clickElement(btnNumber35PDPSelectAnacapri);
+    }
+
+    public void doClickBtnBuyPdpAnacapri(){
+        waitElementPolling(btnBuyPDPAnacapri); //Create a FluentWait
+        clickElement(btnBuyPDPAnacapri);
+    }
 }

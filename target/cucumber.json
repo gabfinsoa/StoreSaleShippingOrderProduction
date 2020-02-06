@@ -6,17 +6,17 @@
         "comments": [
           {
             "line": 5,
-            "value": "#  @ArezzoFullMethods"
+            "value": "#  @AnacapriFullMethods"
           },
           {
             "line": 6,
-            "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Arezzo"
+            "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Anacapri"
           }
         ],
         "before": [
           {
             "result": {
-              "duration": 39274507200,
+              "duration": 30817285300,
               "status": "passed"
             },
             "match": {
@@ -25,15 +25,15 @@
           }
         ],
         "line": 8,
-        "name": "Buy item Full Price as Entrega pela Loja Arezzo",
+        "name": "Buy item Full Price as Entrega pela Loja Anacapri",
         "description": "",
-        "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo",
+        "id": "arezzo-check-cart;buy-item-full-price-as-entrega-pela-loja-anacapri",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 514174500,
+              "duration": 468972000,
               "status": "passed"
             },
             "line": 9,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 28271624200,
+              "duration": 1219319800,
               "status": "passed"
             },
             "line": 10,
@@ -63,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 470256700,
+              "duration": 1511809500,
               "status": "passed"
             },
             "line": 11,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 271391300,
+              "duration": 3400240000,
               "status": "passed"
             },
             "line": 12,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 1194677400,
+              "duration": 1145362900,
               "status": "passed"
             },
             "line": 13,
@@ -99,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 113274900,
+              "duration": 120624900,
               "status": "passed"
             },
             "line": 14,
@@ -113,15 +113,15 @@
         "tags": [
           {
             "line": 7,
-            "name": "@ArezzoFullMethods"
+            "name": "@AnacapriFullMethods"
           }
         ]
       }
     ],
-    "name": "Schutz Check Cart",
+    "name": "Arezzo Check Cart",
     "description": "This feature will check the options in the client cart and checkout pages",
-    "id": "schutz-check-cart",
+    "id": "arezzo-check-cart",
     "keyword": "Feature",
-    "uri": "ArezzoShippingVerify.feature"
+    "uri": "AnacapriShippingVerify.feature"
   }
 ]

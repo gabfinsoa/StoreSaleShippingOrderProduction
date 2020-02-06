@@ -89,4 +89,48 @@ public class CartActions extends CartObjects {
         }
     }
 
+
+    public void doClearCepFieldAnacapri(){
+        waitElementPolling(txtCepFieldCartAnacapri);
+        clearElement(txtCepFieldCartAnacapri);
+    }
+
+    public void doSendKeysCepFieldAnacapri(){
+        waitElementPolling(txtCepFieldCartAnacapri);
+        sendKeysElement(txtCepFieldCartAnacapri,"05402-600");
+    }
+
+    public void doCepConsultCartAnacapri(){
+        waitElementPolling(btnCepConsultCartAnacapri);
+        clickElement(btnCepConsultCartAnacapri);
+    }
+
+    public void doValidateRetirarNaLojaShippingMethodAnacapri(){
+        boolean validate = waitElementPolling(lblRetirarNaLojaMethodAnacapri);
+        if (validate){
+            System.out.println("ENTROU RETIRE ANA");
+            String lblRetireReturn = getText(lblRetirarNaLojaMethodAnacapri);
+            System.out.println(lblRetireReturn);
+            String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("GRÁTIS - 1 dia útil - ","");
+            String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
+            Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+        }else {
+            System.out.println("Não ofereceu RETIRAR NA LOJA ANA");
+        }
+    }
+
+    public void doValidateEntregaPelaLojaShippingMethodAnacapri(){
+        boolean validate = waitElementPolling(lblEntregaPelaLojaMethodAnacapri);
+        if (validate){
+            System.out.println("ENTROU ENTREGA ANA");
+            String lblEntregaReturn = getText(lblEntregaPelaLojaMethodAnacapri);
+            System.out.println(lblEntregaReturn);
+            String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 1 dia útil - ","");
+            String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
+            Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+        }else {
+            System.out.println("Não ofereceu ENTREGA PELA LOJA ANA");
+        }
+    }
+
 }

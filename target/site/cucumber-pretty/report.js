@@ -1,36 +1,36 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ArezzoShippingVerify.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AnacapriShippingVerify.feature");
 formatter.feature({
   "line": 2,
-  "name": "Schutz Check Cart",
+  "name": "Arezzo Check Cart",
   "description": "This feature will check the options in the client cart and checkout pages",
-  "id": "schutz-check-cart",
+  "id": "arezzo-check-cart",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 39274507200,
+  "duration": 30817285300,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
       "line": 5,
-      "value": "#  @ArezzoFullMethods"
+      "value": "#  @AnacapriFullMethods"
     },
     {
       "line": 6,
-      "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Arezzo"
+      "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Anacapri"
     }
   ],
   "line": 8,
-  "name": "Buy item Full Price as Entrega pela Loja Arezzo",
+  "name": "Buy item Full Price as Entrega pela Loja Anacapri",
   "description": "",
-  "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo",
+  "id": "arezzo-check-cart;buy-item-full-price-as-entrega-pela-loja-anacapri",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 7,
-      "name": "@ArezzoFullMethods"
+      "name": "@AnacapriFullMethods"
     }
   ]
 });
@@ -74,42 +74,42 @@ formatter.match({
   "location": "ShippingMethodsSteps.iSelectTheNumber(String)"
 });
 formatter.result({
-  "duration": 514174500,
+  "duration": 468972000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iClickTheBuyButton()"
 });
 formatter.result({
-  "duration": 28271624200,
+  "duration": 1219319800,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iInsertMyCEPAddress()"
 });
 formatter.result({
-  "duration": 470256700,
+  "duration": 1511809500,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iClickOnCalculateShipping()"
 });
 formatter.result({
-  "duration": 271391300,
+  "duration": 3400240000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iSeeTheEntregaPelaLojaMethod()"
 });
 formatter.result({
-  "duration": 1194677400,
+  "duration": 1145362900,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iSeeTheRetireNaLojaMethod()"
 });
 formatter.result({
-  "duration": 113274900,
+  "duration": 120624900,
   "status": "passed"
 });
 });

@@ -20,8 +20,7 @@ public class InitPdp {
                 pdpActions.doSelectBtnNumber35PDPSelectSchutz();
                 break;
             case "Anacapri":
-//                pdpActions.doSelectBtnNumber35PDPSelectSchutz();
-                System.out.println("Fazer Anacapri!!!");
+                pdpActions.doSelectBtnNumber35PDPSelectAnacapri();
                 break;
         }
 //        pdpActions.doSelectBtnNumber35PDPSelectSchutz();
@@ -37,7 +36,7 @@ public class InitPdp {
                 pdpActions.doClickBtnBuyPdpSchutz();
                 break;
             case "Anacapri":
-                System.out.println("Fazer Anacapri!!");
+                pdpActions.doClickBtnBuyPdpAnacapri();
                 break;
         }
 //        pdpActions.doClickBtnBuyPdpSchutz();
