@@ -72,6 +72,45 @@ public class Utils {
         return jsonBaseUrl;
     }
 
+    public static String getCep(String cepType) {
+        StringBuilder fileName = new StringBuilder();
+        fileName.append("src/test/resources/recursos.json");
+//        String jsonBaseCep = "";
+        String jsonBaseCep = cepType;
+
+        switch (cepType){
+            case "StoreSale":
+                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName.toString()))) {
+                    Gson gson = new Gson();
+                    Map<String, Object> element = gson.fromJson(bufferedReader, Map.class);
+                    jsonBaseCep = ((Map<String, String>)((Map<String, Object>)element.get("CEP")).get("StoreSale")).get("cepStoreSale");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                return jsonBaseCep;
+
+            case "Normal":
+                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName.toString()))) {
+                    Gson gson = new Gson();
+                    Map<String, Object> element = gson.fromJson(bufferedReader, Map.class);
+                    jsonBaseCep = ((Map<String, String>)((Map<String, Object>)element.get("CEP")).get("Normal")).get("cepNormal");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                return jsonBaseCep;
+        }
+
+//        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName.toString()))) {
+//            Gson gson = new Gson();
+//            Map<String, Object> element = gson.fromJson(bufferedReader, Map.class);
+//            jsonBaseCep = ((Map<String, String>)((Map<String, Object>)element.get("CEP")).get("StoreSale")).get("cepStoreSale");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return jsonBaseCep;
+        return jsonBaseCep;
+    }
+
     public static String getBaseUrlStoreSale() {
         StringBuilder fileName = new StringBuilder();
         fileName.append("src/test/resources/baseUrlStoreSale.json");

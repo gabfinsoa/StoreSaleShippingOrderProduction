@@ -1,36 +1,40 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AnacapriShippingVerify.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("SchutzShippingVerify.feature");
 formatter.feature({
   "line": 2,
-  "name": "Arezzo Check Cart",
+  "name": "Schutz Check Cart",
   "description": "This feature will check the options in the client cart and checkout pages",
-  "id": "arezzo-check-cart",
+  "id": "schutz-check-cart",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 30817285300,
+  "duration": 14530607000,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
     {
-      "line": 5,
-      "value": "#  @AnacapriFullMethods"
-    },
-    {
       "line": 6,
-      "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Anacapri"
+      "value": "#  Scenario Outline: Buy item Full Price as Entrega pela Loja Schutz"
     }
   ],
   "line": 8,
-  "name": "Buy item Full Price as Entrega pela Loja Anacapri",
+  "name": "Buy item Full Price as Entrega pela Loja Arezzo",
   "description": "",
-  "id": "arezzo-check-cart;buy-item-full-price-as-entrega-pela-loja-anacapri",
+  "id": "schutz-check-cart;buy-item-full-price-as-entrega-pela-loja-arezzo",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 7,
-      "name": "@AnacapriFullMethods"
+      "name": "@SchutzCart"
+    },
+    {
+      "line": 7,
+      "name": "@SchutzCheckout"
+    },
+    {
+      "line": 7,
+      "name": "@SchutzSmoke"
     }
   ]
 });
@@ -74,42 +78,42 @@ formatter.match({
   "location": "ShippingMethodsSteps.iSelectTheNumber(String)"
 });
 formatter.result({
-  "duration": 468972000,
+  "duration": 575034099,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iClickTheBuyButton()"
 });
 formatter.result({
-  "duration": 1219319800,
+  "duration": 1143059000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iInsertMyCEPAddress()"
 });
 formatter.result({
-  "duration": 1511809500,
+  "duration": 1352250000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iClickOnCalculateShipping()"
 });
 formatter.result({
-  "duration": 3400240000,
+  "duration": 320234001,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iSeeTheEntregaPelaLojaMethod()"
 });
 formatter.result({
-  "duration": 1145362900,
-  "status": "passed"
+  "duration": 1230581600,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cE[NTREGA PELA LOJA]\u003e but was:\u003cE[XPRESSO]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat actions.CartActions.doValidateEntregaPelaLojaShippingMethodSchutz(CartActions.java:74)\r\n\tat base.InitCart.cartCepValidateEntregaPelaLojaMethod(InitCart.java:70)\r\n\tat steps.ShippingMethodsSteps.iSeeTheEntregaPelaLojaMethod(ShippingMethodsSteps.java:55)\r\n\tat ✽.And I see the Entrega pela Loja method(SchutzShippingVerify.feature:13)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "ShippingMethodsSteps.iSeeTheRetireNaLojaMethod()"
 });
 formatter.result({
-  "duration": 120624900,
-  "status": "passed"
+  "status": "skipped"
 });
 });

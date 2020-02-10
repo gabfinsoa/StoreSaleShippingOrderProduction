@@ -1,0 +1,8 @@
+testsRun\RunTest.class
+base\InitPdp.class
+base\InitCart.class
+steps\Hook.class
+TesteInicial\AcessaSchutz.class
+capabilities\Capabilities$BrowserCleanup.class
+steps\ShippingMethodsSteps.class
+capabilities\Capabilities.class

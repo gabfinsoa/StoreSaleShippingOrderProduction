@@ -4,10 +4,14 @@ import objects.CartObjects;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
 public class CartActions extends CartObjects {
     public CartActions(WebDriver driver) {
         super(driver);
     }
+
 
     public void doClearCepFieldSchutz(){
         waitElementPolling(txtCepFieldCartSchutz);
@@ -16,7 +20,7 @@ public class CartActions extends CartObjects {
 
     public void doSendKeysCepFieldSchutz(){
         waitElementPolling(txtCepFieldCartSchutz);
-        sendKeysElement(txtCepFieldCartSchutz,"05402-600");
+        sendKeysElement(txtCepFieldCartSchutz,getCep("StoreSale"));
     }
 
     public void doCepConsultCartSchutz(){
@@ -28,6 +32,21 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblRetirarNaLojaMethodSchutz);
         if (validate){
             System.out.println("ENTROU RETIRE SCH");
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                System.out.println("É SEXTA");
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodSchutz);
+                System.out.println(lblRetireReturn);
+                Assert.assertEquals("Retirar na loja".toUpperCase(),lblRetireReturn);
+            }else {
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodSchutz);
+                System.out.println(lblRetireReturn);
+                Assert.assertEquals("Retirar na loja".toUpperCase(),lblRetireReturn);
+            }
+
             String lblRetireReturn = getText(lblRetirarNaLojaMethodSchutz);
             System.out.println(lblRetireReturn);
             Assert.assertEquals("Retirar na loja".toUpperCase(),lblRetireReturn);
@@ -40,9 +59,20 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblEntregaPelaLojaMethodSchutz);
         if (validate){
             System.out.println("ENTROU ENTREGA SCH");
-            String lblEntregaReturn = getText(lblEntregaPelaLojaMethodSchutz);
-            System.out.println(lblEntregaReturn);
-            Assert.assertEquals("Entrega pela loja".toUpperCase(),lblEntregaReturn);
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                System.out.println("É SEXTA");
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodSchutz);
+                System.out.println(lblEntregaReturn);
+                Assert.assertEquals("Entrega pela loja".toUpperCase(),lblEntregaReturn);
+            }else {
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodSchutz);
+                System.out.println(lblEntregaReturn);
+                Assert.assertEquals("Entrega pela loja".toUpperCase(),lblEntregaReturn);
+            }
         }else {
             System.out.println("Não ofereceu ENTREGA PELA LOJA SCH");
         }
@@ -55,7 +85,7 @@ public class CartActions extends CartObjects {
 
     public void doSendKeysCepFieldArezzo(){
         waitElementPolling(txtCepFieldCartArezzo);
-        sendKeysElement(txtCepFieldCartArezzo,"05402-600");
+        sendKeysElement(txtCepFieldCartArezzo,getCep("StoreSale"));
     }
 
     public void doCepConsultCartArezzo(){
@@ -67,10 +97,24 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblRetirarNaLojaMethodArezzo);
         if (validate){
             System.out.println("ENTROU RETIRE ARZZ");
-            String lblRetireReturn = getText(lblRetirarNaLojaMethodArezzo);
-            System.out.println(lblRetireReturn);
-            String retireShippingMethodLabelReturn = lblRetireReturn.replace(" - 1 dia útil- GRÁTIS","");
-            Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn);
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodArezzo);
+                System.out.println(lblRetireReturn);
+                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+            } else {
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodArezzo);
+                System.out.println(lblRetireReturn);
+                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace(" - 1 dia útil- GRÁTIS","");
+                String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+            }
+
         }else {
             System.out.println("Não ofereceu RETIRAR NA LOJA");
         }
@@ -80,10 +124,24 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblEntregaPelaLojaMethodArezzo);
         if (validate){
             System.out.println("ENTROU ENTREGA ARZZ");
-            String lblEntregaReturn = getText(lblEntregaPelaLojaMethodArezzo);
-            System.out.println(lblEntregaReturn);
-            String entregaShippingMethodLabelReturn = lblEntregaReturn.replace(" - 1 dia útil - R$ 9,90","");
-            Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn);
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                System.out.println("É SEXTA");
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodArezzo);
+                System.out.println(lblEntregaReturn);
+                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+            }else {
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodArezzo);
+                System.out.println(lblEntregaReturn);
+                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace(" - 1 dia útil - R$ 9,90","");
+                String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+            }
         }else {
             System.out.println("Não ofereceu ENTREGA PELA LOJA");
         }
@@ -97,7 +155,7 @@ public class CartActions extends CartObjects {
 
     public void doSendKeysCepFieldAnacapri(){
         waitElementPolling(txtCepFieldCartAnacapri);
-        sendKeysElement(txtCepFieldCartAnacapri,"05402-600");
+        sendKeysElement(txtCepFieldCartAnacapri,getCep("StoreSale"));
     }
 
     public void doCepConsultCartAnacapri(){
@@ -109,11 +167,25 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblRetirarNaLojaMethodAnacapri);
         if (validate){
             System.out.println("ENTROU RETIRE ANA");
-            String lblRetireReturn = getText(lblRetirarNaLojaMethodAnacapri);
-            System.out.println(lblRetireReturn);
-            String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("GRÁTIS - 1 dia útil - ","");
-            String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
-            Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodAnacapri);
+                System.out.println(lblRetireReturn);
+                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+            } else {
+                String lblRetireReturn = getText(lblRetirarNaLojaMethodAnacapri);
+                System.out.println(lblRetireReturn);
+                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("GRÁTIS - 1 dia útil - ","");
+                String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
+            }
+
+
         }else {
             System.out.println("Não ofereceu RETIRAR NA LOJA ANA");
         }
@@ -123,11 +195,24 @@ public class CartActions extends CartObjects {
         boolean validate = waitElementPolling(lblEntregaPelaLojaMethodAnacapri);
         if (validate){
             System.out.println("ENTROU ENTREGA ANA");
-            String lblEntregaReturn = getText(lblEntregaPelaLojaMethodAnacapri);
-            System.out.println(lblEntregaReturn);
-            String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 1 dia útil - ","");
-            String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
-            Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+
+            LocalDate fullDate = LocalDate.now();
+            DayOfWeek dayDate = fullDate.getDayOfWeek();
+
+            if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
+                System.out.println("É SEXTA");
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodAnacapri);
+                System.out.println(lblEntregaReturn);
+                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+            }else {
+                String lblEntregaReturn = getText(lblEntregaPelaLojaMethodAnacapri);
+                System.out.println(lblEntregaReturn);
+                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 1 dia útil - ","");
+                String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
+                Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
+            }
         }else {
             System.out.println("Não ofereceu ENTREGA PELA LOJA ANA");
         }

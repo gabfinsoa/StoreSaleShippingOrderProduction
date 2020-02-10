@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/features",
         format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
+//        tags = {"@AnacapriCart"},
         glue = ("steps")
 )
 

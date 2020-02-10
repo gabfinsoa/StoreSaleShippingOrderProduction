@@ -4,7 +4,7 @@ Feature: Arezzo Check Cart
 
 #  @ArezzoFullMethods
 #  Scenario Outline: Buy item Full Price as Entrega pela Loja Arezzo
-  @ArezzoFullMethods
+  @ArezzoCart @ArezzoCheckout @ArezzoSmoke
   Scenario: Buy item Full Price as Entrega pela Loja Arezzo
     Given I select the number "35"
     And I click the buy button
