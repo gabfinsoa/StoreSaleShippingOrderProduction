@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c0f233-72c8-44ff-b666-75f90266a1cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/recursos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/CartActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/CartActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/capabilities/Capabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/capabilities/Capabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/AnacapriShippingVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/SchutzShippingVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SchutzShippingVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsRun/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StoreSaleShippingOrderProduction.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/actions/CartActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/CartActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/capabilities/Capabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/capabilities/Capabilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testsRun/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testsRun/RunTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="442">
               <caret line="26" column="36" selection-start-line="24" selection-start-column="20" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
@@ -68,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/actions/CartActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="81">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="1309">
               <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,6 +98,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,10 +140,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2109" />
-    <option name="y" value="165" />
-    <option name="width" value="1382" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="y" value="114" />
+    <option name="width" value="1380" />
     <option name="height" value="621" />
   </component>
   <component name="ProjectView">
@@ -164,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +255,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Schutz ">
+  <component name="RunManager" selected="JUnit.Arezzo">
     <configuration name="AcessaSchutz" type="JUnit" factoryName="JUnit" folderName="Schutz" temporary="true" nameIsGenerated="true">
       <module name="StoreSaleShippingOrderProduction" />
       <extension name="coverage">
@@ -415,24 +402,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Anacapri - 2020.02.10 at 18h 37m 42s.xml">
-      <configuration name="Anacapri" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Anacapri - 2020.02.10 at 18h 39m 14s.xml">
-      <configuration name="Anacapri" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Anacapri - 2020.02.10 at 18h 40m 54s.xml">
-      <configuration name="Anacapri" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Anacapri - 2020.02.10 at 18h 42m 29s.xml">
-      <configuration name="Anacapri" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Anacapri - 2020.02.10 at 18h 43m 54s.xml">
-      <configuration name="Anacapri" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Arezzo - 2020.02.10 at 18h 45m 43s.xml">
-      <configuration name="Arezzo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Arezzo - 2020.02.10 at 18h 46m 45s.xml">
       <configuration name="Arezzo" configurationId="JUnit" />
     </history-entry>
@@ -445,12 +414,30 @@
     <history-entry file="Schutz_ - 2020.02.10 at 18h 57m 42s.xml">
       <configuration name="Schutz " configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Schutz_ - 2020.02.11 at 10h 24m 04s.xml">
+      <configuration name="Schutz " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Schutz_ - 2020.02.11 at 10h 24m 38s.xml">
+      <configuration name="Schutz " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Anacapri - 2020.02.11 at 10h 25m 45s.xml">
+      <configuration name="Anacapri" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Arezzo - 2020.02.11 at 10h 27m 19s.xml">
+      <configuration name="Arezzo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Arezzo - 2020.02.11 at 10h 34m 00s.xml">
+      <configuration name="Arezzo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Arezzo - 2020.02.11 at 10h 34m 34s.xml">
+      <configuration name="Arezzo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19215938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7236504" visible="true" weight="0.2732167" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7236504" visible="true" weight="0.36824876" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49871466" weight="0.28532976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/recursos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/ArezzoShippingVerify.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -669,9 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/testsRun.RunTest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/testsRun.RunTest.txt" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-testsRun.RunTest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -685,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="26" column="36" selection-start-line="24" selection-start-column="20" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -699,15 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6711#6712#0" expanded="true" />
-            <element signature="e#6759#6760#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="36" selection-start-line="24" selection-start-column="20" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -725,10 +691,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/recursos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6711#6712#0" expanded="true" />
+            <element signature="e#6759#6760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actions/CartActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="81">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
