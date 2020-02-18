@@ -104,7 +104,7 @@ public class CartActions extends CartObjects {
             if (dayDate.equals(DayOfWeek.FRIDAY) || dayDate.equals(DayOfWeek.SATURDAY) || dayDate.equals(DayOfWeek.SUNDAY)){
                 String lblRetireReturn = getText(lblRetirarNaLojaMethodArezzo);
                 System.out.println(lblRetireReturn);
-                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String retireShippingMethodLabelReturn1 = lblRetireReturn.replace(" - 2 dias úteis- GRÁTIS","");
                 String retireShippingMethodLabelReturn2 = retireShippingMethodLabelReturn1.replace(" ?","");
                 Assert.assertEquals("Retirar na loja",retireShippingMethodLabelReturn2);
             } else {
@@ -132,7 +132,7 @@ public class CartActions extends CartObjects {
                 System.out.println("É SEXTA");
                 String lblEntregaReturn = getText(lblEntregaPelaLojaMethodArezzo);
                 System.out.println(lblEntregaReturn);
-                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace("R$ 9,90 - 2 dias úteis - ","");
+                String entregaShippingMethodLabelReturn1 = lblEntregaReturn.replace(" - 2 dias úteis - R$ 9,90","");
                 String entregaShippingMethodLabelReturn2 = entregaShippingMethodLabelReturn1.replace(" ?","");
                 Assert.assertEquals("Entrega pela loja",entregaShippingMethodLabelReturn2);
             }else {

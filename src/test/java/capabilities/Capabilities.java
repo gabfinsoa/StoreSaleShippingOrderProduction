@@ -99,10 +99,10 @@ public class Capabilities {
         }
     }
 
-    public String getCep(){
-        String cep = "";
-        return cep;
-    }
+//    public String getCep(){
+//        String cep = "";
+//        return cep;
+//    }
 
 
 

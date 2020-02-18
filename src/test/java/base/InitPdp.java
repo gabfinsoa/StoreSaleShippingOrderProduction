@@ -4,23 +4,28 @@ import actions.PdpProductOptionsActions;
 import capabilities.Capabilities;
 
 import static utils.Utils.getBrand;
+import static utils.Utils.getEnv;
 
 public class InitPdp {
 
     public static Capabilities caps = new Capabilities();
     static PdpProductOptionsActions pdpActions = new PdpProductOptionsActions(caps.driver);
 
-    public static void pdpSelectShoeNumber(){
+    public static void pdpSelectShoeNumber(String numero){
         String brand = getBrand();
+        String env = getEnv();
         switch (brand){
             case "Arezzo":
-                pdpActions.doSelectBtnNumber35PDPSelectArezzo();
+//                pdpActions.doSelectBtnNumber35PDPSelectArezzo();
+                pdpActions.doSelectShoeNumber(numero);
                 break;
             case "Schutz":
-                pdpActions.doSelectBtnNumber35PDPSelectSchutz();
+//                pdpActions.doSelectBtnNumber33PDPSelectSchutz();
+                pdpActions.doSelectShoeNumber(numero);
                 break;
             case "Anacapri":
-                pdpActions.doSelectBtnNumber35PDPSelectAnacapri();
+//                pdpActions.doSelectBtnNumber35PDPSelectAnacapri();
+                pdpActions.doSelectShoeNumber(numero);
                 break;
         }
 //        pdpActions.doSelectBtnNumber35PDPSelectSchutz();

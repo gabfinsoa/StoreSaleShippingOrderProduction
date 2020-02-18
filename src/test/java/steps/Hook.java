@@ -22,6 +22,7 @@ public class Hook /* extends Capabilities */ implements Pt {
     static boolean isSchutz = Utils.getBrand().equals("Schutz");
 
     public Hook() {
+
         Before((Scenario scenario) -> {
             System.setProperty("webdriver.chrome.driver", Utils.webdriverLocation());
             System.out.println("Base URL: " + Utils.getBaseUrl());
@@ -33,29 +34,16 @@ public class Hook /* extends Capabilities */ implements Pt {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            if(isArezzoMobile){
-//                closeBanner();
-//            }
         });
 
-//    @Before
-//    public void InitializeTest(Scenario scenario){
-//        System.out.println("Opening the browser " + " :" + urlSiteInteg02Arezzo);
-//        Capabilities.setupProperties();
-//        Capabilities.setupOpenChromeDriver();
-//    }
-//
-//    @After
-//    public void TearDownTest(Scenario scenario){
-//
-//        if(scenario.isFailed()){
-//            //Take Screenshot
-//            System.out.println(scenario.getName());
-//        }
-//
-//        System.out.println("Closing the browser : MOCK ");
-//        Capabilities.setDown();
-////        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-//    }
+
+        After((Scenario scenario) -> {
+            System.out.println("---------------------------------------------------------------------------------------------------");
+            System.out.println("Cenário teste: " + scenario.getName());
+            System.out.println("Status teste: " + scenario.getStatus().toUpperCase());
+            System.out.println("---------------------------------------------------------------------------------------------------");
+        });
+
+
     }
 }

@@ -13,25 +13,8 @@ public class ShippingMethodsSteps {
 
     @Given("^I select the number \"([^\"]*)\"$")
     public void iSelectTheNumber(String numero) throws Throwable {
-        InitPdp.pdpSelectShoeNumber();
-//        if (getBrand().equals("Schutz")){
-//            System.out.println(getBrand());
-//            System.out.println(numero);
-//            if (numero.equals("35")){
-//                InitPdp.pdpSelectShoeNumber();
-//            }
-//            else {
-////                InitPdp.pdpSelectGrade33_4Button();
-////                /html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[3]/a/span
-//            }
-//        }else if(getBrand().equals("Arezzo")){
-////            InitPdp.pdpAnacapriSelectGrade39Button();
-//            System.out.println(getBrand());
-//            System.out.println(numero);
-//            if (numero.equals("35")){
-//                InitPdp.pdpSelectShoeNumber();
-//            }
-//        }
+        InitPdp.pdpSelectShoeNumber(numero);
+
     }
 
     @And("^I click the buy button$")

@@ -1,0 +1,128 @@
+{
+  "Schutz": {
+    "prd": {
+      "33": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[1]/label",
+      "34": "",
+      "35": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[3]/label",
+      "36": "",
+      "37": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[5]/label",
+      "38": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[6]/label",
+      "39": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[7]/label",
+      "40": "/html/body/div[2]/div[2]/div/main/section[2]/section/div/div[3]/div/ul/li[8]/label"
+    },
+    "tst": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "hml": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "lcl": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    }
+  },
+  "Arezzo": {
+    "prd": {
+      "33": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[1]/a/span",
+      "34": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[2]/a/span",
+      "35": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[3]/a/span",
+      "36": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[4]/a/span",
+      "37": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[5]/a/span",
+      "38": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[6]/a/span",
+      "39": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[7]/a/span",
+      "40": "/html/body/div[2]/div[2]/div/div[1]/div[2]/div[10]/ul/li[8]/a/span"
+    },
+    "tst": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "hml": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "lcl": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    }
+  },
+  "Anacapri": {
+    "prd": {
+      "33": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[1]/label",
+      "34": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[2]/label",
+      "35": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[3]/label",
+      "36": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[4]/label",
+      "37": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[5]/label",
+      "38": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[6]/label",
+      "39": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[7]/label",
+      "40": "/html/body/div[5]/div[2]/div/div[2]/form/div[1]/div[1]/div/ul/li[8]/label"
+    },
+    "tst": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "hml": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    },
+    "lcl": {
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": ""
+    }
+  }
+}
